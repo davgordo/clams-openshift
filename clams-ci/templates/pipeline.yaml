@@ -10,9 +10,9 @@ spec:
   - name: gitRepositoryUrl
     type: string
     default: {{ .Values.gitRepositoryUrl }}
-  - name: gitRevision
+  - name: gitRef
     type: string
-    default: {{ .Values.gitRevision }}
+    default: {{ .Values.gitRef }}
   - name: imageUrl
     type: string
     default: {{ .Values.imageUrl }}
@@ -30,7 +30,7 @@ spec:
       - name: url
         value: $(params.gitRepositoryUrl)
       - name: revision
-        value: "$(params.gitRevision)"
+        value: "$(params.gitRef)"
       workspaces:
       - name: output
         workspace: shared-data
