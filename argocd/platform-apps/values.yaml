@@ -1,0 +1,3 @@
+gitRepositoryUrl: https://github.com/davgordo/clams-app.git
+gitRef: main
+clusterBaseUrl: example.cluster.com

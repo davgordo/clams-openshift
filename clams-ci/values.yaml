@@ -1,0 +1,4 @@
+gitRepositoryUrl: https://github.com/clams-tech/App.git
+gitRevision: main
+imageUrl: image-registry.openshift-image-registry.svc:5000/clams-demo/clams:latest
+dockerfilePath: .oci/Dockerfile
