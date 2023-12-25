@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/davgordo/clams-openshift.git
-    path: argocd/platform-applications
+    path: argocd/platform-apps
     targetRevision: main
     helm:
       parameters:
