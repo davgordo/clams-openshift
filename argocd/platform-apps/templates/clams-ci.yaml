@@ -7,11 +7,11 @@ spec:
   project: default
   source:
     repoURL: "https://github.com/davgordo/clams-openshift.git"
-    path: clams-demo
+    path: clams-ci
     targetRevision: main
   destination:
     server: https://kubernetes.default.svc
-    namespace: clams-ci
+    namespace: clams-demo
   syncPolicy:
     automated: 
       prune: true
