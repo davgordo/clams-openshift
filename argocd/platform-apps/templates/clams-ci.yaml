@@ -9,6 +9,12 @@ spec:
     repoURL: "https://github.com/davgordo/clams-openshift.git"
     path: clams-ci
     targetRevision: main
+    helm:
+      parameters:
+        - name: gitRepositoryUrl
+          value: https://github.com/davgordo/clams-app.git
+        - name: gitRef
+          value: oci
   destination:
     server: https://kubernetes.default.svc
     namespace: clams-demo
